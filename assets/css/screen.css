@@ -1571,12 +1571,12 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
+    margin: 0 0 0 0;
     padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
-    color: #BBC7CC;
+    color: #fff;
 }
 
 .site-footer a {
@@ -1591,15 +1591,10 @@ body:not(.post-template) .post-title {
 
 .poweredby {
     display: block;
-    width: 45%;
-    float: right;
-    text-align: right;
 }
 
 .copyright {
     display: block;
-    width: 45%;
-    float: left;
 }
 
 

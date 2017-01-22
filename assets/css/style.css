@@ -4,7 +4,6 @@ html, body{
 }
 
 .sidebar{
-    padding: 20px;
     width: 40%;
     background-color: #3d9c85;
     text-align: center;
@@ -13,14 +12,17 @@ html, body{
     height: 100%;
     float: left;
     position: fixed;
+    display: table;
 }
 
 .sidebar-inner {
+    margin-top: 50px;
     position: relative;
     z-index: 10;
-    display: table;
     height: 100%;
     width: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .sidebar-navigations {
@@ -78,6 +80,23 @@ html, body{
 }
 
 
+#name{
+	font-weight: 400; 
+	font-size: 60px;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+}
+
+#des{
+	font-weight: 400; 
+	font-size: 30px;
+    color: white;
+}
+
+#subtitle{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
 
 .social{
     margin-top: 50px;
@@ -189,7 +208,7 @@ html, body{
     content:'b';
 }
 
-.main-content{
+.site-content{
     padding-top: 20px;
     position: relative;
     z-index: 2;
